@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register</title>
+    <link rel="stylesheet" href="./assets/css/user_log_styles.css">
+  
+</head>
+<body>
+
+        <main>
+
+            <div class="main-container">
+                <div class="back-box">
+                    <div class="back-box-login">
+                        <h3>¿Ya tienes una cuenta?</h3>
+                        <p>Inicia sesión para entrar en la página</p>
+                        <button id="login-btn">Iniciar Sesión</button>
+                    </div>
+                    <div class="back-box-register">
+                        <h3>¿Aún no tienes una cuenta?</h3>
+                        <p>Regístrate para que puedas iniciar sesión</p>
+                        <button id="register-btn">Registrarse</button>
+                    </div>
+                </div>
+
+                <!--Formulario de Login y registro-->
+                <div class="login-register-container">
+                    <!--Login-->
+                    <form action="" class="login-form">
+                        <h2>Iniciar Sesión</h2>
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Entrar</button>
+                    </form>
+
+                    <!--Register-->
+                    <form action="" class="register-form">
+                        <h2>Registrarse</h2>
+                        <input type="text" placeholder="Nombre completo">
+                        <input type="text" placeholder="Correo Electrónico">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Registrarse</button>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+
+        <script src="./assets/js/user_log.js"></script>
+</body>
+</html>
