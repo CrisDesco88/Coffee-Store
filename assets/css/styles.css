@@ -71,14 +71,14 @@ body {
     padding-bottom: .5rem;
 }
 
-.header > .icons > div {
+.header > .icons > .fas {
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
 }
 
-.header > .icons > div:hover {
+.header > .icons > .fas:hover {
     color:var(--main-color); 
 }
 
