@@ -65,7 +65,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 7%;
+    padding: 1em 7%;
     border-bottom: var(--border);
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -73,7 +73,7 @@ section {
 }
 
 .header > .logo > img {
-    height: 6rem;
+    height: 7rem;
 }
 
 .header > .navbar > a{
@@ -526,7 +526,64 @@ section {
 }
 
 
+/* <======== Footer =========>*/
 
+.footer {
+    background-color: var(--black);
+    text-align: center;
+}
+
+.footer .share {
+    padding: 1em 0;
+    
+}
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    margin: .3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover {
+    transform: scale(1.2);
+    background-color: var(--main-color);
+}
+
+.footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em 0;
+    gap: 1em;
+}
+
+.footer .links a {
+    padding: 0.3em 0.6em;
+    color: #fff;
+    border: var(--border);
+    font-size: 2rem;
+}
+
+.footer .links a:hover {
+    background-color: var(--main-color);
+}
+
+.footer .credit {
+    font-size: 1.75rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1em;
+
+}
+
+.footer .credit span {
+    color: var(--main-color);
+    font-weight: bolder;
+}
 
 
 
